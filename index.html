@@ -198,7 +198,7 @@
   <p class="center"><mark>Também será o mais lucrativo.</mark></p>
 
   <div class="btn-wrap">
-    <a class="btn" href="#checkout" data-produto="google-docs-cachorro" data-preco="97">Quero o Google Docs cachorro por R$&nbsp;97</a>
+    <a class="btn" href="https://payfast.greenn.com.br/jy6jjm4/offer/ac3rwY" data-produto="google-docs-cachorro" data-preco="97">Quero o Google Docs cachorro por R$&nbsp;97</a>
   </div>
   <p class="trust">R$&nbsp;97 &middot; pagamento único &middot; Google Docs + skill para o Claude</p>
 
@@ -230,14 +230,14 @@
   <p>No fim da segunda página está a lista de quem procurar primeiro. <mark>Amanhã cedo você já sabe pra quem ligar.</mark></p>
 
   <div class="btn-wrap">
-    <a class="btn" href="#checkout" data-produto="google-docs-cachorro" data-preco="97">Quero o Google Docs cachorro por R$&nbsp;97</a>
+    <a class="btn" href="https://payfast.greenn.com.br/jy6jjm4/offer/ac3rwY" data-produto="google-docs-cachorro" data-preco="97">Quero o Google Docs cachorro por R$&nbsp;97</a>
   </div>
   <p class="trust">R$&nbsp;97 &middot; pagamento único &middot; Google Docs + skill para o Claude</p>
 
   <p class="sig">—hélio</p>
 
   <div class="ps">
-    <p><strong>P.S.</strong> Se a preguiça passar e eu separar os brindes em upsell, os R$&nbsp;97 passam a comprar só as duas páginas principais. Hoje vão os três documentos juntos. <a href="#checkout" data-produto="google-docs-cachorro" data-preco="97">Clique aqui pra levar os três por R$&nbsp;97.</a></p>
+    <p><strong>P.S.</strong> Se a preguiça passar e eu separar os brindes em upsell, os R$&nbsp;97 passam a comprar só as duas páginas principais. Hoje vão os três documentos juntos. <a href="https://payfast.greenn.com.br/jy6jjm4/offer/ac3rwY" data-produto="google-docs-cachorro" data-preco="97">Clique aqui pra levar os três por R$&nbsp;97.</a></p>
   </div>
 
   <div class="bio">
@@ -255,7 +255,7 @@
     <p>Continuo não sabendo programar.</p>
 
     <div class="btn-wrap">
-      <a class="btn" href="#checkout" data-produto="google-docs-cachorro" data-preco="97">Quero o Google Docs cachorro por R$&nbsp;97</a>
+      <a class="btn" href="https://payfast.greenn.com.br/jy6jjm4/offer/ac3rwY" data-produto="google-docs-cachorro" data-preco="97">Quero o Google Docs cachorro por R$&nbsp;97</a>
     </div>
     <p class="trust">R$&nbsp;97 &middot; pagamento único &middot; Google Docs + skill para o Claude</p>
   </div>
@@ -269,6 +269,10 @@
 
 <script>
 document.querySelectorAll('[data-produto]').forEach(function (el) {
+  // UTMs do anúncio seguem até o checkout
+  if (location.search) {
+    el.href += (el.href.indexOf('?') === -1 ? '?' : '&') + location.search.slice(1);
+  }
   el.addEventListener('click', function () {
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({
